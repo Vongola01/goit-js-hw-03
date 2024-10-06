@@ -1,4 +1,13 @@
-
+function filterArray(numbers, value) {
+    const newArr = [];
+    for (const arr of numbers) {
+        if (arr > value) {
+            newArr.push(arr);
+        }
+        
+    }
+    return newArr;
+}
 
 
 
